@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+name: Life in Code
+description: "Official Blog of Viamentis Technologies"
+url: http://blog.viamentis.com
 markdown: redcarpet
 pygments: true
+paginate: 5
