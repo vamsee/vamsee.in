@@ -1,0 +1,17 @@
+---
+layout: post
+title: "2011: A Retrospective"
+date: 2011-12-31 14:35
+comments: true
+categories: personal
+---
+
+As I scramble to get some supplies for a small party I'm throwing at my new home in Bangalore, I thought it would be a good time to write about a small post commemorating the year past. Though I have to admit I've been thinking  for a while about a possible move to this city from my beloved Chennai, at the beginning of the year at least, I had no idea. I was buzzing from the excitement of participating in TFN 2010, and I was also too busy getting into the groove of a new project, and that's pretty much all I cared about. As year progressed though, it became apparent that I'm up for some pain on this front.
+
+There are good clients, and there are bad clients. And I take a lot of care to choose what kind I work with, and I for me it's very important that a client's temparament matches mine. I didn't know that I should pay as much attention to their experience too, and maybe my earlier awesome clients kinda made me sloppy about checking credentials. After all, I've been lucky enough to work with some exceptionally good ones before.
+
+I guess lessons learnt, and I would come away with enough pain out of the project to become a major lesson in client relationship management. I learned that it's very important that the other party understands the software development process also a little bit, not just his or her domain. Perhaps I too failed in managing expectations properly. Either way, it was a heart-rending experience, but I'm still proud of the work I've done for this client. I guess nothing pains you more than the fact that your work is going into a project that would probably never see the light of the day. That always stinks. 
+
+But I guess I had to learn this lesson either way, and I did with as much humility I can muster. It was easy to get angry and frustrated, but I always knew doing your own thing was not going to be easy. But as it happens, the tail end of the year took a surprisingly good turn, rather unexpectedly. I landed a good project in Bangalore, and the opportunity presented itself for me to finally make the move. I took the plunge, and here I am. So far, it seems like a good move, and I'm happy with the work I'm doing, and most importantly, I'm now working with the NGO sector, which is an entirely new experience to me. While startups introduce you to ambitious people who obsess about money and making it big, the NGO sectory is almost the exact opposite - idealist, easygoing people who want to spend their life in service of others. I'm sure there are exceptions, but I have grown to respect how much some people sacrifice for making others' lives a bit more easier. Makes you hopeful about the future of humanity, I suppose.
+
+I'm learning a lot on that front, and I continue to work with my favorite toolset, which I'm also thankful for, because I realize a lot of people don't have that freedom to choose. I'm also making a new set of acquaintances, friends and colleagues. The new city has been kind to me so far. What more can I ask? And yes, I'm finally back to my cycling routine. Can't help but feel grateful for the opportunities I had, lessons learned and friends made. Here's to a new one, and hopefully I will learn as much as I did in the past year - hopefully with less pain, but I guess you never get to choose that part :). Wishing you all a happy and prosperous new year, and may all the dreams that you really care about come true!

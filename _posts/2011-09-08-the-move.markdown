@@ -1,0 +1,13 @@
+---
+layout: post
+title: The move
+categories: personal
+---
+
+In a significant personal decision, I have decided to move to Bangalore. It's been more than seven long years in Chennai, and it has been a city that I have grown immensely fond of, and it has seen my ups and downs personally and professionally. 
+
+Of course no regrets on either counts, I have always taken decisions with the full awareness that I will pay for my mistakes if those decisions go wrong, and I have learned from both kinds :). I have made lots of friends, gained and lost loves, and it has seen me through some immensely challenging and uplifting times. I will never forget this city, just like I won't forget my time in Hyderabad. As it happens, I have stayed in both cities 7 years each. We shall see how long in Bangalore :)
+
+On the professional front nothing much changes except [Viamentis](http://www.viamentis.com) will change its address to a new city, and I will be working with a non-profit for the very first time, managing/improving their Rails site as a contractor. I will be posting more about the new client and other details on [The Viamentis Blog](http://blog.viamentis.com) soon. Though the new project does not require me to be in Bangalore per se, I have been thinking about this change for a while, and this assignment provided the perfect opportunity to do so.
+
+I'm grateful for all the amazing people I met in Chennai, and I would very much hope to keep in touch no matter where I live in the future. My stay here wouldn't be anywhere as exciting as it has been without the fantastic people I met here. Some of them changed my life, and I will forever cherish their friendship, love and acceptance. Thank you Chennai, it's been a blast. 
