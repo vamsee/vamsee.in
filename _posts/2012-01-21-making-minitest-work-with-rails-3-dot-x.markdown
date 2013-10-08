@@ -3,7 +3,7 @@ layout: post
 title: "Making Minitest Work With Rails 3.x"
 date: 2012-01-21 21:28
 comments: true
-categories: rails, minitest
+categories: rails minitest
 ---
 
 I have been helping with moving a fairly big legacy Rails code base from 2.3.x to 3.x, and one of the issues I had was to use minitest with rails controller specs. Initially to make this work with 2.3.x we were doing something like this in spec_helper.rb:
