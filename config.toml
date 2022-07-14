@@ -1,6 +1,6 @@
 baseURL = 'https://vamsee.in/'
 languageCode = 'en-us'
-title = "Vamsee's Dev Blog"
+title = "Vamsee Kanakala"
 theme = "cactus"
 copyright = "Vamsee Kanakala"
 
@@ -11,7 +11,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Writings"
+name = "Posts"
 url = "/posts"
 weight = 2
 
@@ -20,14 +20,53 @@ name = "Tags"
 url = "/tags"
 weight = 3
 
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 4
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
 
 [params]
 
   colortheme = "dark" # dark, light, white, or classic
+  rss = true
 
   # Home page settings
-  description = "Hi. My name is Vamsee Kanakala, and I mostly write about programming languages, technical leadership and other related topics. You can subscribe to my feed if you're interested."
+  description = "Hi. I'm a web developer turned devops engineer. I occasionally dabble in startups and engineering management as well. I mostly write about programming languages, technical leadership and other related topics here."
+  mainSection = "posts" # your main section
+  mainSectionTitle = "Posts"
+  showAllPostsOnHomePage = false # default
+  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = true # show tags overview by default.
+  showProjectsList = true # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/vamsee" # title link for projects list
+
+  [params.comments]
+    enabled = false # default
+    engine = "utterances" # only disqus, utterances, and cactus_comments is supported
+    [params.comments.utterances]
+      repo = "vamsee/vamsee.in"
+      label = "vamsee.in" # you can use however you want to label your name in your repo's issues
+      theme = "github-dark"
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/vamsee"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/vamsee-kanakala"
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/vamsee"  # no need for "mailto:" in the head

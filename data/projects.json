@@ -1,0 +1,9 @@
+{
+   "list": [
+      {
+         "name":"puppet-solr",
+         "url":"https://forge.puppet.com/modules/vamsee/solr",
+         "desc":"A puppet module for solr"
+      }
+   ]
+}
