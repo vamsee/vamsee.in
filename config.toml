@@ -70,3 +70,9 @@ weight = 3
   [[params.social]]
     name = "twitter"
     link = "https://twitter.com/vamsee"  # no need for "mailto:" in the head
+
+[deployment]
+  [[deployment.targets]]
+  # An arbitrary name for this target.
+  name = "s3"
+  URL = "s3://vamsee.in?region=us-east-1"
