@@ -52,11 +52,11 @@ weight = 3
   projectsUrl = "https://github.com/vamsee" # title link for projects list
 
   [params.comments]
-    enabled = false # default
+    enabled = true
     engine = "utterances" # only disqus, utterances, and cactus_comments is supported
     [params.comments.utterances]
       repo = "vamsee/vamsee.in"
-      label = "vamsee.in" # you can use however you want to label your name in your repo's issues
+      label = "comment" # you can use however you want to label your name in your repo's issues
       theme = "github-dark"
 
   # the value of name should be an valid font awesome icon name (brands type)
@@ -70,3 +70,30 @@ weight = 3
   [[params.social]]
     name = "twitter"
     link = "https://twitter.com/vamsee"  # no need for "mailto:" in the head
+
+[deployment]
+  [[deployment.targets]]
+  # An arbitrary name for this target.
+  name = "s3"
+  URL = "s3://vamsee.in?region=us-east-1"
+
+  [[deployment.matchers]]
+  # Cache static assets for 1 year.
+  pattern = "^.+\\.(js|css|svg|ttf)$"
+  cacheControl = "max-age=31536000, no-transform, public"
+  gzip = true
+
+  [[deployment.matchers]]
+  pattern = "^.+\\.(png|jpg)$"
+  cacheControl = "max-age=31536000, no-transform, public"
+  gzip = false
+
+  [[deployment.matchers]]
+  # Set custom content type for /sitemap.xml
+  pattern = "^sitemap\\.xml$"
+  contentType = "application/xml"
+  gzip = true
+
+  [[deployment.matchers]]
+  pattern = "^.+\\.(html|xml|json)$"
+  gzip = true
