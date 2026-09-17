@@ -32,6 +32,10 @@ function reflect(): void {
   document
     .querySelector("meta[name='theme-color']")
     ?.setAttribute("content", bg);
+
+  window.dispatchEvent(
+    new CustomEvent("theme:change", { detail: { theme: themeValue } })
+  );
 }
 
 function setup(): void {
